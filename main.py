@@ -59,9 +59,7 @@ def main():
     '''
     w = xor(d, XOR_VALUE)
 
-    print(hash_string)
-    print(d)
-    print(w)
+    print(f"w = {w}")
 
 if __name__ == "__main__":
     main()
